@@ -37,6 +37,7 @@ public class Main {
                     case 2:
                     // aun falta implementar su logica
                 case 3:
+                //esta si funcion
                     System.out.println("Ingrese el nombre del ninja:");
                     String nombreNinjaCrear = scanner.next();
                     System.out.println("Ingrese el rango del ninja:");
