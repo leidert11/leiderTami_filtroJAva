@@ -36,8 +36,8 @@ public class Main {
                     break;
                     case 2:
                     // aun falta implementar su logica
-                case 3:
-                //esta si funcion
+                    case 3:
+                    //esta si funcion
                     System.out.println("Ingrese el nombre del ninja:");
                     String nombreNinjaCrear = scanner.next();
                     System.out.println("Ingrese el rango del ninja:");
@@ -48,9 +48,14 @@ public class Main {
                     System.out.println("Ninja creado exitosamente.");
                     break;
                     case 4:
-                    // HabilidadDAO habilidadDAO = new HabilidadDAO();
-                    // habilidadDAO.crearHabilidad(nuevaHabilidad);
-                case 5:
+                    //funciona
+                    System.out.println("Ingrese el nombre de la habilidad:");
+                    String nombreHabilidad = scanner.next();
+                    System.out.println("Ingrese la descripcioon de la habilidad:");
+                    String descripcionHabilidad = scanner.next();
+                    habilidadDAO.crearHabilidad(new Habilidad(4, nombreHabilidad, descripcionHabilidad));
+                    System.out.println("Habilidad creada exitosamente.");
+                    case 5:
                     System.out.println("Saliendo del programa...");
                     break;
                 default:
