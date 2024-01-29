@@ -18,7 +18,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int opcion = 0;
-        while (opcion != 4) {
+        while (opcion != 5) {
             System.out.println("Menu:");
             System.out.println("1. Listar ninjas con habilidades");
             System.out.println("2. mostrar las misiones disponibles para  un ninja en especifico");
