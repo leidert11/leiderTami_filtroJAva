@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.mycompany.leidertami_filtrojava.ProyectoNinja.modelo.ConexionBD;
-System.out.println("4. crear una habilidad");
 public class HabilidadDAO {
      public void crearHabilidad(Habilidad habilidad) {
         Connection conexion = ConexionBD.getConexion();

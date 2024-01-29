@@ -47,8 +47,8 @@ public class Main {
                     System.out.println("Ninja creado exitosamente.");
                     break;
                     case 4:
-                    HabilidadDAO habilidadDAO = new HabilidadDAO();
-                    habilidadDAO.crearHabilidad(nuevaHabilidad);
+                    // HabilidadDAO habilidadDAO = new HabilidadDAO();
+                    // habilidadDAO.crearHabilidad(nuevaHabilidad);
                 case 5:
                     System.out.println("Saliendo del programa...");
                     break;
