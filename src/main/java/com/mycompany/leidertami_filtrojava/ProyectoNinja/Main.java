@@ -22,7 +22,7 @@ public class Main {
             System.out.println("Menu:");
             System.out.println("1. Listar ninjas con habilidades");
             System.out.println("2. mostrar las misiones disponibles para  un ninja en especifico");
-            System.out.println("3. crear unninja");
+            System.out.println("3. crear un ninja");
             System.out.println("4. crear una habilidad");
             System.out.println("5. Salir");
             System.out.print("Seleccione una opcion: ");
@@ -46,8 +46,9 @@ public class Main {
                     ninjaDAO.crearNinja(new Ninja(4, nombreNinjaCrear, rangoNinja, aldeaNinja));
                     System.out.println("Ninja creado exitosamente.");
                     break;
-                case 4:
-                
+                    case 4:
+                    HabilidadDAO habilidadDAO = new HabilidadDAO();
+                    habilidadDAO.crearHabilidad(nuevaHabilidad);
                 case 5:
                     System.out.println("Saliendo del programa...");
                     break;
